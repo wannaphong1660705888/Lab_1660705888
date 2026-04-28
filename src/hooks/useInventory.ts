@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { Product } from "../Types";
+import type { Product } from "../types"; // ใช้ t ตัวเล็ก
 
 const INITIAL_PRODUCTS: Product[] = [
   { id: 1, name: "MacBook Pro 14\"", price: 69900, quantity: 5 },
